@@ -1,0 +1,32 @@
+.root {
+    -fx-font-family: verdana;
+    -fx-background-color: rgb(184, 173, 161);
+}
+
+MyGridPane {
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+    -fx-min-width: 300;
+   -fx-min-height: 300;
+}
+
+EventUI {
+   -fx-pref-height: 300;
+   -fx-pref-width: 300;
+}
+
+.box {
+   -fx-pref-height: 200;
+   -fx-alignment: center;
+}
+
+.button {
+    -fx-padding: 5;
+    -fx-background-color: rgb(139, 123, 104);
+    -fx-text-fill: white;
+}
+
+UI {
+    -fx-spacing: 10;
+   -fx-padding: 5;
+}
